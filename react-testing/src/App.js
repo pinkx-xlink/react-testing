@@ -1,14 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
-    </div>
-  );
-}
+
+const App = () => <h1>Our First Test</h1>;
 
 export default App;

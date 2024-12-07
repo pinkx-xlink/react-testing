@@ -11,9 +11,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "test": "vitest",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -32,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/user-event": "^14.5.2"
   }
 }
